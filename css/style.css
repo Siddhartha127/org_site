@@ -55,7 +55,7 @@ nav ul li a:hover{
 .firstsection{
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(images/index.89d3119228d600788910.svg);
+    background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(/images/index.89d3119228d600788910.svg);
     background-size: cover;
     background-position: top;
     height: 90vh;
