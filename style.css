@@ -3,21 +3,23 @@
     padding: 0;
 }
 body{
-    background-color: #BD68EE
-    ;
+    background: black;
+    /* cursor: url(/static/media/arrowPoint.5b3f3b5c07736388f143.svg) 15 15,move; */
 }
 
 nav {
+    animation: fadeInDown 1s ease forwards;
     display: flex;
     color: white;
     justify-content: space-around;
     align-items: center;
-    background-color: #AB51E3;
+  background-color: #10e956 !important;
     height: 60px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), radial-gradient(at top left, rgba(255, 255, 255, 0.1), transparent);
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), radial-gradient(at top left, rgba(255, 255, 255, 0.1), transparent); */
     background-position: 0 0, 0 0;
     background-repeat: no-repeat, repeat;
     background-size: 100% 60px, 5px 5px;
+    position: sticky;
 }
 
 #orgName{
@@ -49,32 +51,37 @@ nav ul li a:hover{
     transform: scale(1.1);
 }
 
+
 .firstsection{
     display: flex;
     justify-content: space-around;
+    background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(images/index.89d3119228d600788910.svg);
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
     align-items: center;
-    height:90vh;
 }
 .leftsection{
     color: floralwhite;
     font-size: 3rem;
-    font-weight: 650;
-    margin-right:20px ;
-    float: left;
+    font-weight: 700;
     width: 60%;
     margin-left: 50px;
-    padding-bottom: 20vb;
+    margin-bottom: 20px;
 }
 .rightsection {
     float: right;
     width: 50%;
-    background-color: aquamarine;
+   /* background-color: aquamarine; */
     height:40%;
     margin-bottom: 50px;
     margin-right: 50px;
 }
 .leftsection span{
-    color: blue;
+    color: #10e956;
     text-decoration: underline;
 
+}
+.lorem{
+    color:white;
 }
