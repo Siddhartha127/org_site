@@ -6,20 +6,28 @@ body{
     background-color: #BD68EE
     ;
 }
-nav{
-    display:flex;
+
+nav {
+    display: flex;
     color: white;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
     background-color: #AB51E3;
     height: 60px;
-    
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), radial-gradient(at top left, rgba(255, 255, 255, 0.1), transparent);
+    background-position: 0 0, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 60px, 5px 5px;
+}
+
+#orgName{
+    font-size: 1.6rem;
 }
 
 nav ul{
     display: flex;
     justify-content: space-around;
-
+    
 }
 nav ul li{
     list-style: none;
@@ -28,9 +36,45 @@ nav ul li{
     justify-content: space-between;
     margin:0 23px;
     cursor: pointer;
+    font-size:  24px;
+    font-weight: bold;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
-    
+
+}
+nav ul li a:hover{
+    color: #3c1056;
+    transform: scale(1.1);
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:90vh;
+}
+.leftsection{
+    color: floralwhite;
+    font-size: 3rem;
+    font-weight: 650;
+    margin-right:20px ;
+    float: left;
+    width: 60%;
+    margin-left: 50px;
+    padding-bottom: 20vb;
+}
+.rightsection {
+    float: right;
+    width: 50%;
+    background-color: aquamarine;
+    height:40%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.leftsection span{
+    color: blue;
+    text-decoration: underline;
+
 }
