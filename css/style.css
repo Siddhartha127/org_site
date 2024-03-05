@@ -99,8 +99,8 @@ hr{
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    height: 100vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
     align-items: center;
 }
 .about-us-left{
@@ -110,6 +110,7 @@ hr{
      background-color: #10e956;
      height: 50%;
     width: 50%;
+    margin-right: 20px;
     /* margin-left: 50px; */
     /* margin-bottom: 20px; */
 }
@@ -118,7 +119,16 @@ hr{
     float: right;
     width: 50%;
    /* background-color: aquamarine; */
-    height:40%;
+    height:50%;
     /* margin-bottom: 50px; */
     /* margin-right: 50px; */
+}
+.about-us-content{
+    font-size: 1rem;
+}
+.about-us-right h2{
+    color: #10e956;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
 }
