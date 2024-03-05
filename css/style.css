@@ -5,6 +5,7 @@
 body{
     background: black;
     /* cursor: url(/static/media/arrowPoint.5b3f3b5c07736388f143.svg) 15 15,move; */
+    font-family: "Kode Mono",monospace;
 }
 
 nav {
@@ -13,8 +14,10 @@ nav {
     color: white;
     justify-content: space-around;
     align-items: center;
-  background-color: #10e956 !important;
-    height: 60px;
+  /* background-color: #10e956 !important; */
+  background: rgb(16,233,86);
+   background: linear-gradient(180deg, rgba(16,233,86,1) 0%, rgb(0, 0, 0,1) 100%);
+    height: 80px;
     /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), radial-gradient(at top left, rgba(255, 255, 255, 0.1), transparent); */
     background-position: 0 0, 0 0;
     background-repeat: no-repeat, repeat;
@@ -58,12 +61,12 @@ nav ul li a:hover{
     background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(/images/index.89d3119228d600788910.svg);
     background-size: cover;
     background-position: top;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
 }
 .leftsection{
     color: floralwhite;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 700;
     width: 60%;
     margin-left: 50px;
@@ -82,6 +85,40 @@ nav ul li a:hover{
     text-decoration: underline;
 
 }
-.lorem{
-    color:white;
+
+hr{
+    color:#10e956;
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+} 
+.about-us-section{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vh;
+    align-items: center;
+}
+.about-us-left{
+    color: floralwhite;
+    /* font-size: 3.3rem; */
+    /* font-weight: 700; */
+     background-color: #10e956;
+     height: 50%;
+    width: 50%;
+    /* margin-left: 50px; */
+    /* margin-bottom: 20px; */
+}
+.about-us-right{
+    color: floralwhite;
+    float: right;
+    width: 50%;
+   /* background-color: aquamarine; */
+    height:40%;
+    /* margin-bottom: 50px; */
+    /* margin-right: 50px; */
 }
