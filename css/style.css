@@ -8,6 +8,9 @@ body {
     /* cursor: url(/static/media/arrowPoint.5b3f3b5c07736388f143.svg) 15 15,move; */
     font-family: "Kode Mono", monospace;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 nav {
     animation: fadeInDown 1s ease forwards;
